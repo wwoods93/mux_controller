@@ -197,6 +197,13 @@ int main(void)
   HAL_LPTIM_Counter_Start_IT(&hlptim2);
   HAL_RNG_RegisterReadyDataCallback(&hrng, hal_callback_rng_random_number_ready);
 
+  HAL_GPIO_WritePin(MUX8_0_EN_GPIO_Port, MUX8_0_EN_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(MUX16_0_EN_GPIO_Port, MUX16_0_EN_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(MUX16_0_A0_GPIO_Port, MUX16_0_A0_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(MUX16_0_A1_GPIO_Port, MUX16_0_A1_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(MUX16_0_A2_GPIO_Port, MUX16_0_A2_Pin, GPIO_PIN_SET);
+
+
   while (1)
   {
     /* USER CODE END WHILE */
