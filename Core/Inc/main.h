@@ -101,6 +101,12 @@ uint32_t hal_lptim2_get_count(void);
 #define MUX16_0_A3_GPIO_Port GPIOG
 #define MUX16_1_A2_Pin GPIO_PIN_3
 #define MUX16_1_A2_GPIO_Port GPIOG
+#define MUX8_4_A2_Pin GPIO_PIN_6
+#define MUX8_4_A2_GPIO_Port GPIOC
+#define MUX8_4_A1_Pin GPIO_PIN_8
+#define MUX8_4_A1_GPIO_Port GPIOC
+#define MUX8_4_EN_Pin GPIO_PIN_9
+#define MUX8_4_EN_GPIO_Port GPIOC
 #define MUX8_0_EN_Pin GPIO_PIN_10
 #define MUX8_0_EN_GPIO_Port GPIOC
 #define MUX8_0_A1_Pin GPIO_PIN_11
@@ -135,6 +141,8 @@ uint32_t hal_lptim2_get_count(void);
 #define MUX8_2_A2_GPIO_Port GPIOG
 #define UCPD_DBn_Pin GPIO_PIN_5
 #define UCPD_DBn_GPIO_Port GPIOB
+#define MUX8_4_A0_Pin GPIO_PIN_8
+#define MUX8_4_A0_GPIO_Port GPIOB
 #define MUX8_2_EN_Pin GPIO_PIN_1
 #define MUX8_2_EN_GPIO_Port GPIOE
 
