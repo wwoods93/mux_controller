@@ -225,6 +225,20 @@ void RCC_IRQHandler(void)
 }
 
 /**
+  * @brief This function handles EXTI Line13 interrupt.
+  */
+void EXTI13_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI13_IRQn 0 */
+
+  /* USER CODE END EXTI13_IRQn 0 */
+  BSP_PB_IRQHandler(BUTTON_USER);
+  /* USER CODE BEGIN EXTI13_IRQn 1 */
+
+  /* USER CODE END EXTI13_IRQn 1 */
+}
+
+/**
   * @brief This function handles TIM4 global interrupt.
   */
 void TIM4_IRQHandler(void)
