@@ -144,7 +144,6 @@ int main()
   HAL_GPIO_WritePin(MUX16_0_A1_GPIO_Port, MUX16_0_A1_Pin, GPIO_PIN_SET);
   HAL_GPIO_WritePin(MUX16_0_A2_GPIO_Port, MUX16_0_A2_Pin, GPIO_PIN_SET);
 
-
   while (1)
   {
     /* USER CODE END WHILE */
