@@ -93,6 +93,8 @@ uint32_t hal_lptim2_get_count(void);
 #define MUX16_3_A1_GPIO_Port GPIOG
 #define MUX16_3_A3_Pin GPIO_PIN_1
 #define MUX16_3_A3_GPIO_Port GPIOG
+#define USER_INPUT_Pin GPIO_PIN_14
+#define USER_INPUT_GPIO_Port GPIOE
 #define UCPD_FLT_Pin GPIO_PIN_14
 #define UCPD_FLT_GPIO_Port GPIOB
 #define MUX8_3_A0_Pin GPIO_PIN_9
