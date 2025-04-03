@@ -227,27 +227,25 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug"/>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/stm32u5_low_power"/>
+		</configuration>
+	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1083472276;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1083472276.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.740251347;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.31917071">
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1633767120;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1633767120.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.369903677;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.545620779">
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1083472276;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1083472276.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.369398770;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.271720728">
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1633767120;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1633767120.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.369903677;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.545620779">
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1083472276;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1083472276.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.740251347;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.31917071">
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1633767120;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1633767120.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.640442760;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1586453517">
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
-	</storageModule>
-	<storageModule moduleId="refreshScope" versionNumber="2">
-		<configuration configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="/stm32u5_low_power"/>
-		</configuration>
-		<configuration configurationName="Release">
-			<resource resourceType="PROJECT" workspacePath="/stm32u5_low_power"/>
-		</configuration>
 	</storageModule>
 </cproject>
