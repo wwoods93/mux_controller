@@ -52,7 +52,6 @@
 									<listOptionValue builtIn="false" value="../Drivers/BSP/STM32U5xx_Nucleo"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32U5xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
-									<listOptionValue builtIn="false" value="../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includefiles.973950256" name="Include files (-include)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includefiles" useByScannerDiscovery="false" valueType="includeFiles"/>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.545620779" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
@@ -73,9 +72,9 @@
 									<listOptionValue builtIn="false" value="../Drivers/BSP/STM32U5xx_Nucleo"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32U5xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
-									<listOptionValue builtIn="false" value="../Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl/"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includefiles.59995875" name="Include files (-include)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includefiles" useByScannerDiscovery="false" valueType="includeFiles"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.languagestandard.143215051" name="Language standard" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.languagestandard" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.languagestandard.value.gnupp20" valueType="enumerated"/>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1586453517" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1455193726" name="MCU/MPU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker"/>
@@ -99,7 +98,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_Cryptographic/legacy_v3|STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_ExtMem_Manager|STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_ExtMem_Loader|STM32CubeExpansion_Crypto_V4.3.0/_htmresc|STM32CubeExpansion_Crypto_V4.3.0/Projects|STM32CubeExpansion_Crypto_V4.3.0/Drivers" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry excluding="STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_ExtMem_Manager|STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_Cryptographic/legacy_v3|STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_ExtMem_Loader|STM32CubeExpansion_Crypto_V4.3.0/Drivers|STM32CubeExpansion_Crypto_V4.3.0/_htmresc|STM32CubeExpansion_Crypto_V4.3.0/Projects" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 					</sourceEntries>
 				</configuration>
@@ -213,7 +212,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_Cryptographic/legacy_v3|STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_ExtMem_Manager|STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_ExtMem_Loader|STM32CubeExpansion_Crypto_V4.3.0/_htmresc|STM32CubeExpansion_Crypto_V4.3.0/Projects|STM32CubeExpansion_Crypto_V4.3.0/Drivers" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry excluding="STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_ExtMem_Manager|STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_Cryptographic/legacy_v3|STM32CubeExpansion_Crypto_V4.3.0/Middlewares/ST/STM32_ExtMem_Loader|STM32CubeExpansion_Crypto_V4.3.0/Drivers|STM32CubeExpansion_Crypto_V4.3.0/_htmresc|STM32CubeExpansion_Crypto_V4.3.0/Projects" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 					</sourceEntries>
 				</configuration>

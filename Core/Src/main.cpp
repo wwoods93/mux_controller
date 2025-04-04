@@ -28,6 +28,8 @@
 #include <stdint.h>
 #include <string.h>
 
+#include "../w_sys/mux_control.h"
+
 COM_InitTypeDef BspCOMInit;
 __IO uint32_t BspButtonState = BUTTON_RELEASED;
 
@@ -67,15 +69,9 @@ int main()
   HAL_LPTIM_RegisterCallback(&hlptim2, HAL_LPTIM_UPDATE_EVENT_CB_ID, hal_callback_lptim2_update_event);
   HAL_LPTIM_Counter_Start_IT(&hlptim2);
 
-  HAL_GPIO_WritePin(MUX8_0_EN_GPIO_Port, MUX8_0_EN_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(MUX16_0_EN_GPIO_Port, MUX16_0_EN_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(MUX16_0_A0_GPIO_Port, MUX16_0_A0_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(MUX16_0_A1_GPIO_Port, MUX16_0_A1_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(MUX16_0_A2_GPIO_Port, MUX16_0_A2_Pin, GPIO_PIN_SET);
-
   while (1)
   {
-
+	  w_sys::mux_control_run();
   }
 }
 
